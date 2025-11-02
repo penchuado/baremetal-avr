@@ -12,8 +12,9 @@
 
 On Debian/Ubuntu:
 
-`sudo apt update && sudo apt upgrade`
-`sudo apt install gcc build-essential gcc-avr binutils-avr gdb-avr libusb-dev avrdude`
+``sudo apt update && sudo apt upgrade`
+
+`sudo apt install gcc build-essential gcc-avr binutils-avr gdb-avr libusb-dev avrdude``
 
 ## Compile for Atmega328p
 `avr-gcc -mmcu=atmega328p -Wall -Os -o ./build/main.elf main.c`
