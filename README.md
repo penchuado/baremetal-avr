@@ -11,6 +11,7 @@
 8. avrdude
 
 On Debian/Ubuntu:
+
 `sudo apt update && sudo apt upgrade`
 `sudo apt install gcc build-essential gcc-avr binutils-avr gdb-avr libusb-dev avrdude`
 
