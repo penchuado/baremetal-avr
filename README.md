@@ -24,7 +24,7 @@ The third command will generate `.elf` file from the source code. The fourth com
 cd baremetal-avr
 mkdir build
 avr-gcc -mmcu=atmega328p -Wall -Os -o ./build/main.elf ./src/main.c
-avr-objcopy -j .text -j .data -O ihex .build/main.elf .build/main.hex
+avr-objcopy -j .text -j .data -O ihex ./build/main.elf ./build/main.hex
 ```
 
 ## Flashing
