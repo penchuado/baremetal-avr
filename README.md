@@ -18,10 +18,12 @@ sudo apt install gcc build-essential gcc-avr binutils-avr gdb-avr libusb-dev avr
 ```
 
 ## Compile and generate iHex file
+The third command will generate `.elf` file from the source code. The fourth command will generate `.hex` file from the previously generate `.elf` file.
 
 ```bash
+cd baremetal-avr
+mkdir build
 avr-gcc -mmcu=atmega328p -Wall -Os -o ./build/main.elf main.c
-
 avr-objcopy -j .text -j .data -O ihex .build/main.elf .build/main.hex
 ```
 
