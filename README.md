@@ -19,3 +19,6 @@ sudo apt install gcc build-essential gcc-avr binutils-avr gdb-avr libusb-dev avr
 
 ## Compile for Atmega328p
 `avr-gcc -mmcu=atmega328p -Wall -Os -o ./build/main.elf main.c`
+
+## To read device signature using avrdude
+`avrdude -p <partname> -c <programmer> -P <PORT>`
