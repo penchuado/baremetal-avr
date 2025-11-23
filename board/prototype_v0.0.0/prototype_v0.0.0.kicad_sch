@@ -2202,7 +2202,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 55.88) (xy 120.65 50.8)
+			(xy 140.97 55.88) (xy 140.97 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2212,7 +2212,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 50.8) (xy 151.13 50.8)
+			(xy 140.97 50.8) (xy 151.13 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2302,7 +2302,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 55.88) (xy 120.65 55.88)
+			(xy 114.3 55.88) (xy 140.97 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3140,10 +3140,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b7d9ab06-1e32-403c-8f09-35971ba883eb")
 		(property "Reference" "Y1"
-			(at 144.78 50.8 0)
+			(at 144.78 52.324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3151,7 +3150,7 @@
 			)
 		)
 		(property "Value" "16MHz"
-			(at 144.78 53.34 0)
+			(at 144.78 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
