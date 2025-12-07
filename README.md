@@ -37,3 +37,6 @@ avrdude -p <partname> -c <programmer> -P <PORT>
 ```bash
 avrdude -c <programmer> -p <mcu_part_number> -P <port_name> -b <baud_rate> flash:w:build/main.hex
 ```
+
+## Other notes
+Not ready to be used yet.
